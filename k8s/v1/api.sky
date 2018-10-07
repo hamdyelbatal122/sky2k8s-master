@@ -1,0 +1,5 @@
+def pod(**kwargs):
+    output_type("v1", "Pod", **kwargs)
+
+def deployment(**kwargs):
+    output_type("apps/v1beta2", "Deployment", **kwargs)
